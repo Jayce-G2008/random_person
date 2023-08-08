@@ -1,0 +1,27 @@
+#allimgs {
+    display: flex;
+    flex-wrap: wrap;
+    align-content: space-between;
+}
+
+#img_column {
+    display: flex;
+    max-width: 93px;
+    flex-direction: column;
+}
+
+#img_column2 {
+    display: flex;
+    max-width: 93px;
+    flex-direction: column;
+}
+
+#interchangable {
+    width: 100px;
+    height: 100px;
+    justify-content: center;
+}
+
+#img1, #img0, #img2, #img3, #img4, #img5, #img6, #img7, #img8, #img9, #img10, #img11, #img12, #img13, #interchangable :hover {
+    cursor:pointer;
+}
